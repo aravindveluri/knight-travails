@@ -45,7 +45,7 @@ def knight_moves(initial_pos, final_pos)
   queue = []
   queue.push initial_pos
  
-  parent_of = Hash.new
+  parent_of = {}
   parent_of[initial_pos] = initial_pos
 
   flag = false
